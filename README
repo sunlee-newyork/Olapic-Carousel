@@ -1,0 +1,5 @@
+Olapic Carousel Test
+
+API request pulls recent photos from customer account using AJAX.
+Custom infinite jQuery carousel slides photos.
+Magnific lightbox modal used to zoom into photos.
