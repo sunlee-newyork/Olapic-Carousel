@@ -1,0 +1,39 @@
+.carousel {
+	display:inline-block;
+	width:640px;
+	height:150px;
+	overflow:hidden;
+}
+
+.view {
+	position:relative;
+	height:150px;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.imgDiv {
+	position:relative;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+}
+
+#leftDiv, #rightDiv {
+	position:relative;
+	display:inline-block;
+	font-size:25px;
+}
+
+#leftDiv {
+	left:-10px;
+	bottom:65px;
+}
+
+#rightDiv {
+	left:10px;
+	bottom:65px;
+}
+
+#left, #right {
+	cursor:pointer;
+}
